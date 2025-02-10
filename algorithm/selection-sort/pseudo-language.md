@@ -1,26 +1,21 @@
-Selection-sort
-
-疑似言語
-
-配列の最初の要素のインデックス値は「０」
-
 A←[3,1,4,2]
 
-Minimum←Ａ（0）
-MinimumMiniIndex←0
 
+Mini←Ａ（０）
+MiniIndex←0
 
-繰り返し　I←1　から　4 - 1　まで
+繰り返し　I←0　から　4-1　まで
 
-もし　Minimum　＞　Ａ（I）なら
+繰り返し　J←0　から　4　まで
 
-　Minimum ← A（I）
-　MinimumMiniIndex ← I
-
-
+もし　Mini　＞　Ａ（Ｊ）なら
+　Mini ← A（Ｊ）
+　MiniIndext ←　Ｊ
 
 繰り返し　終了
 
-  Ｘ←Ａ（Ｉ）
-  Ａ（Ｉ）←Minimum
-  Ａ（MinimumIndex）←X
+Ｘ←Ａ（Ｉ）
+Ａ（Ｉ）←Mini
+Ａ（MiniIndex）←X
+
+繰り返し　終了
