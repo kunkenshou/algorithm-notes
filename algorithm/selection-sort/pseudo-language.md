@@ -2,10 +2,8 @@
 
 A←[3,1]
 
-繰り返し J ← 0 から 2 - 1　まで
-
-Minimum　←　A(J)
-MinimumIndex  ← J
+Minimum　←　A(0)
+MinimumIndex  ← 0
 
 繰り返し　I ← 1 から 2 まで 
 
@@ -14,6 +12,3 @@ MinimumIndex  ← J
 　MinimumIndex　←　I
 
 終了　繰り返し
-
-終了　繰り返し
-
