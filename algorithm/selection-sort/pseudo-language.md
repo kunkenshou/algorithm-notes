@@ -6,14 +6,14 @@ N　←　（配列の最後のインデックス値）
 
 
 
-繰り返し  I ←　１ から　N まで
+繰り返し  I ←　0 から　N ー１ まで
 
-繰り返し J ←　0 から　N　ー　１ まで
+繰り返し J ← I + 1 から　N まで
 	
-	もし　A(J)　＞　A（I） なら
+	もし　A(J)　＜　A（I） なら
 	
-	Minimum　← A(I)
-	MiniIndex ← I
+	Minimum　← A(J)
+	MiniIndex ← J
 終了
 	
 
