@@ -16,3 +16,4 @@ MinimumIndex  ← J
 終了　繰り返し
 
 終了　繰り返し
+
