@@ -18,9 +18,12 @@ N　←　（配列の最後のインデックス値）
 
 終了 繰り返し
 	
+	もし 　A（I）　＞　Minimum　なら
+
 	X　←　A（I）
 　　　　A（I）← Minimum
 	A（MiniIndex）←　X
+
 
 終了 繰り返し
 
