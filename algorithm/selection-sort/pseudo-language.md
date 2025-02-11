@@ -2,13 +2,14 @@
 
 A←[3,1]
 
-Minimum　←　X
-MinimumIndex  ← Y
+Minimum　←　A(0)
+MinimumIndex  ← 0
 
-繰り返し　I ← 0 から 1 まで 
+繰り返し　I ← 1 から 2 まで 
 
 もし Minimum ＞ A(I) なら
-　X　←　A（I）
-　Y　←　I
+　Minimum　←　A（I）
+　MinimumIndex　←　I
 
 終了　繰り返し
+
