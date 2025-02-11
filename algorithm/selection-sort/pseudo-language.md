@@ -1,21 +1,20 @@
 A←[3,1,4,2]
 
-
-Mini←Ａ（０）
-MiniIndex←0
-
 繰り返し　I←0　から　4-1　まで
 
-繰り返し　J←0　から　4　まで
-
-もし　Mini　＞　Ａ（Ｊ）なら
-　Mini ← A（Ｊ）
-　MiniIndext ←　Ｊ
-
-繰り返し　終了
+Minimum←Ａ（I）
+MinimumMiniIndex←I
 
 Ｘ←Ａ（Ｉ）
-Ａ（Ｉ）←Mini
-Ａ（MiniIndex）←X
+Ａ（Ｉ）←Minimum
+Ａ（MinimumIndex）←X
+
+繰り返し　J←１　から　4　まで
+
+もし　Minimum　＞　Ａ（Ｊ）なら
+　Minimum ← A（Ｊ）
+　MinimumMiniIndex ← Ｊ
+
+繰り返し　終了
 
 繰り返し　終了
