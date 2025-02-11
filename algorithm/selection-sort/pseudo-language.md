@@ -1,18 +1,15 @@
-
 配列のインデックス値は0から始まる
 
 A　←　[3,1,4,2]
 N　←　（配列の最後のインデックス値）
 
-Minimum　← A（0）
-MiniIndex ← 0
 
 繰り返し  I ←　0 から　N ー１ まで
 
 繰り返し J ← I + 1 から　N まで
-	
+	Minimum　← A（0）
+	MiniIndex ← 0
 	もし　A(J)　＜　A（I） なら
-	
 	Minimum　← A(J)
 	MiniIndex ← J
 
