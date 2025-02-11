@@ -5,7 +5,6 @@ N　←　（配列の最後のインデックス値）
 
 
 
-
 繰り返し  I ←　0 から　N ー１ まで
 
 繰り返し J ← I + 1 から　N まで
@@ -14,14 +13,17 @@ N　←　（配列の最後のインデックス値）
 	
 	Minimum　← A(J)
 	MiniIndex ← J
-終了
-	
 
-終了
+終了 繰り返し
+	
+	X　←　A（I）
+　　　　A（I）← Minimum
+	A（MiniIndex）←　X
+
+終了 繰り返し
 
 
 
 結果
 
-	Minimum 　←　1
-	MiniIndex ←　1
+A　←　[1,3]
